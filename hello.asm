@@ -17,7 +17,9 @@ _start:
 
     mov eax, 0x1    ;termina o programa
     mov ebx, 0x0    ;como se fosse um return 0
-    int 0x80        ;avisa processador para executar informações
+    int 0x80        ;Avisa processador para executar informações
+
+
 
 
 
